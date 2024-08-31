@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Cherry Sub-Domain</title>
+
+    <style>
+      body {
+        background-color: #000000;
+        color: #fff;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        place-items: center;
+      }
+
+      h1 {
+        margin: 0 auto;
+        font-size: 10rem;
+        padding: 0rem;
+      }
+
+      #container {
+        width: 100vw;
+        height: 70vh;
+        display: grid;
+        place-items: center;
+      }
+
+      #container img {
+        padding: 3rem 0rem 4rem 0;
+        height: 30rem;
+      }
+
+      #container #scroll-imgs {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        width: 100%;
+      }
+      #container #scroll-imgs {
+        display: grid;
+        place-items: center;
+      }
+      #name {
+        justify-self: end;
+      }
+
+      #name h2 {
+        transform: rotate(-90deg);
+        font-size: 4rem;
+        width: 100%;
+        margin: 0 0 0 12rem;
+        color: #8a8a8a;
+      }
+
+      #container #info {
+        width: 80%;
+        height: 70%;
+      }
+      #container #info p {
+        line-height: 1.5;
+        color: #8a8a8a;
+      }
+      #name,
+      #info {
+        opacity: 0;
+      }
+
+      #scroll-imgs:hover #name,
+      #scroll-imgs:hover #info {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>ART NEVER DIES</h1>
+      <div id="scroll-imgs">
+        <div id="name">
+          <h2>MIKE TYSON</h2>
+        </div>
+        <img
+          id="image"
+          src="images/d470563d5fb8de46687b32d9817752a8.jpg"
+          alt=""
+        />
+        <div id="info">
+          <h2>About Mike Tyson</h2>
+          <p>
+            "Iron Mike" Tyson is one of the most iconic figures in boxing
+            history. Born on June 30, 1966, in Brooklyn, New York, Tyson rose to
+            fame as the youngest boxer ever to win a heavyweight title at just
+            20 years old. Known for his ferocious and intimidating style, Tyson
+            dominated the ring with a combination of speed, power, and
+            aggression, making him one of the most feared fighters of all time.
+          </p>
+        </div>
+      </div>
+      &copy; 2024 by A.N.D
+    </div>
+  </body>
+  <script defer src="js/main.js"></script>
+</html>
