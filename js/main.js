@@ -5,10 +5,9 @@ window.onload = function () {
 
   var imageUrls = [
     "images/d470563d5fb8de46687b32d9817752a8.jpg",
-    "images/2bd64e1f291a5928f96758d14b3ed685.jpg",
-    "images/9ab6ccb4d0b308ee02289cb7bbdf3eab.jpg",
-    "images/14e571cb8423b130c4adb24f9b53767c.jpg",
-    "images/69954020395faaf0d0e21d66e7aea308.jpg",
+    "images/9ab6ccb4d0b308ee02289cb7bbdf3eab.png",
+    "images/14e571cb8423b130c4adb24f9b53767c.png",
+    "images/69954020395faaf0d0e21d66e7aea308.png",
     // add more image URLs as needed
   ];
 
@@ -39,7 +38,6 @@ window.onload = function () {
     positions.unshift({ x: mouseX, y: mouseY });
     positions.pop();
 
-    // Update the position of each image
     // Update the position of each image
     images.forEach(function (img, index) {
       var position = positions[(index * 5) % positions.length] || positions[0];
